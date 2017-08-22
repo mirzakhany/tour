@@ -1,4 +1,4 @@
-###Persina Translation of go Tour
+        Persian Translation of go Tour
 
 A Tour of Go is an introduction to the Go programming language.
 
