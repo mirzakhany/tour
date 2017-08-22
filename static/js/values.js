@@ -9,13 +9,13 @@ angular.module('tour.values', []).
 // List of modules with description and lessons in it.
 value('tableOfContents', [{
     'id': 'mechanics',
-    'title': 'Using the tour',
-    'description': '<p>Welcome to a tour of the <a href="http://golang.org">Go programming language</a>. The tour covers the most important features of the language, mainly:</p>',
+    'title': 'استفاده از آموزش گو',
+    'description': '<p>به آموزش  <a href="http://golang.org">زبان برنامه نویسی گو</a> خوش آمدید. این آموزش امکانات مهم گو را بررسی می کند. شامل:</p>',
     'lessons': ['welcome']
 }, {
     'id': 'basics',
-    'title': 'Basics',
-    'description': '<p>The starting point, learn all the basics of the language.</p><p>Declaring variables, calling functions, and all the things you need to know before moving to the next lessons.</p>',
+    'title': 'پایه',
+    'description': '<p>نقطه شروع ، آموزش ساختار پایه ای زبان گو</p><p>تعریف متغیر ها, صدا زدن توابع, و تمام اون چیزی که شما لازم دارید برای رفتن به درس های بعد بدونید.</p>',
     'lessons': ['basics', 'flowcontrol', 'moretypes']
 }, {
     'id': 'methods',
@@ -31,25 +31,25 @@ value('tableOfContents', [{
 
 // translation
 value('translation', {
-    'off': 'off',
-    'on': 'on',
+    'off': 'خاموش',
+    'on': 'روشن',
     'syntax': 'Syntax-Highlighting',
-    'lineno': 'Line-Numbers',
+    'lineno': 'شماره خط',
     'reset': 'Reset Slide',
     'format': 'Format Source Code',
-    'kill': 'Kill Program',
-    'run': 'Run',
+    'kill': 'کشتن برنامه',
+    'run': 'اجرا',
     'compile': 'Compile and Run',
-    'more': 'Options',
-    'toc': 'Table of Contents',
-    'prev': 'Previous',
-    'next': 'Next',
-    'waiting': 'Waiting for remote server...',
-    'errcomm': 'Error communicating with remote server.',
-    'submit-feedback': 'Send feedback about this page',
+    'more': 'گزینه ها',
+    'toc': 'فهرست مطالب',
+    'prev': 'قبلی',
+    'next': 'بعدی',
+    'waiting': 'انتظار برای سرور ...',
+    'errcomm': 'خطا در ارتباط با سرور',
+    'submit-feedback': 'ارسال دیدگاه درباره این صفحه',
 
     // GitHub issue template: update repo and messaging when translating.
-    'github-repo': 'github.com/golang/tour',
+    'github-repo': 'github.com/mirzakhany/tour',
     'issue-title': 'tour: [REPLACE WITH SHORT DESCRIPTION]',
     'issue-message': 'Change the title above to describe your issue and add your feedback here, including code if necessary',
     'context': 'Context',
